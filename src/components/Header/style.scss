@@ -1,0 +1,70 @@
+#header {
+  position: fixed;
+  width: 100%;
+
+  .header {
+    background: #FFFFFF;
+    border-radius: 12px;
+    transform: rotate(-0.02deg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding: 15px 0;
+    margin: 20px 60px;
+
+    &--logo {
+      display: flex;
+      align-items: center;
+      gap: 70px;
+
+      div {
+        height: 36px;
+        opacity: 0.3;
+        border: 1px solid #000000;
+      }
+    }
+
+    &--social {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 26px;
+
+      &__message {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        a {
+          font-weight: 900;
+          font-size: 12px;
+          text-align: right;
+          letter-spacing: 0.26em;
+          color: rgba(60, 60, 60, 0.93);
+        }
+
+        p {
+          a {
+            font-weight: 400;
+            color: #3C3C3C;
+            font-size: 12px;
+            text-align: right;
+            letter-spacing: 0.155em;
+          }
+
+        }
+      }
+    }
+
+    &--media {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      color: #393939;
+
+      .facebook {
+      }
+    }
+  }
+}
