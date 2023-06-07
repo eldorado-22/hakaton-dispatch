@@ -34,7 +34,7 @@ const Header = () => {
                     </div>
                     <div className="header--media">
                         <FaFacebookF className="facebook"/>
-                        <AiFillInstagram fontSize={23} className="instagram"/>
+                        <AiFillInstagram fontSize={22} className="instagram"/>
                         <FaTelegramPlane className="telegram"/>
                     </div>
                 </div>
